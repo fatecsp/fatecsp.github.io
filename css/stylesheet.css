@@ -7,7 +7,7 @@
 /* Header */
 body {
   color:#000000;
-  background: #171515; /* #171515; */
+  background: #171515;
   font-size: 16px;
   font-family: 'Myriad Pro', Calibri, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -34,8 +34,7 @@ header h6 {
 /* Navigator (Header) */
 #main-nav {
 	height: 60px;
-	border-top: 10px;
-	margin-top: 25px;
+	margin-top: 5px;
 }
 
 #main-nav ul {
@@ -64,7 +63,6 @@ header h6 {
 
 /* Footer */
 footer {
-	padding: 10px;
 	font-size: 13px;
 	background-color: #171515;
 	color: #FFFFFF;
@@ -72,6 +70,7 @@ footer {
 
 #footer {
 	text-align: right;
+  padding: 25px 10px 50px;
 }
 
 /* Full-Width Styles */
@@ -82,12 +81,12 @@ footer {
 .inner {
   position: relative;
   max-width: 640px;
-  padding: 20px 10px;
+  padding: 25px 10px 150px;
   margin: 0 auto;
 }
 
 #header_wrap .inner {
-  padding: 50px 10px 0px 10px;
+  padding: 1px 10px 0px 10px;
 }
 
 #main_content_wrap {
@@ -102,6 +101,50 @@ footer {
 #footer_wrap {
   background: #171515;
 }
+
+/* Repositories */
+.rep {
+	padding: 15px;
+	margin-bottom: 25px;
+	border: 1px solid #ddd;
+	border-radius: 10px;
+	border-width: 1px;
+}
+
+.rep_nome {
+	font-weight: bold;
+}
+
+.rep_autores {
+	font-style: italic;
+}
+
+.rep_fatec {
+
+}
+
+.rep_git {
+	font-family: courier;
+	font-size: 13px;
+}
+
+.rep_link {
+
+}
+
+/* Submit */
+
+.form-group {
+	border: 1px solid #d3d3d3;
+	max-width: 500px;
+	padding: 20px;
+}
+
+.subform-title {
+	font-size: 20px;
+	font-weight: bold;
+}
+
 
 /* Extra */
 

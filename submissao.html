@@ -19,7 +19,7 @@
   		<img id="fatechub-t-logo" style="float:left;" src="images/fatechub-t-logo.png" alt="FatecHub Logo" width="160px" height="160px"/>
   		<h1><b>Fatec</b>Hub</h1>
   		<h5>fatecsp.github.io</h5>
-  		<h6>Acervo de repositórios GitHub das Faculdades de Tecnologia do Estado de São Paulo.</h6>
+  		<h6>Acervo de repositórios GitHub da Fatec.</h6>
   		<nav id="main-nav" >
   			<ul>
 					<li><a href="index.html	">Início</a></li>
@@ -37,8 +37,30 @@
 	<section id="contents" class="inner">
 <!--------------------------------------------------------------------->
 		<h1>Submissão:</h1><hr>
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum egestas ligula id consectetur dictum. In hac habitasse platea dictumst. Donec sed turpis non est fermentum sodales. Fusce mi nulla, convallis quis posuere non, tristique vitae risus. Etiam lobortis nunc ut venenatis hendrerit. Etiam a ultricies erat, non viverra ipsum. Integer nisi erat, luctus id lorem congue, sagittis viverra libero. Aenean maximus ut tellus a luctus.</p>
-		<p>Nulla id purus vulputate, accumsan neque sit amet, eleifend lacus. Sed libero nulla, lobortis nec felis sollicitudin, hendrerit scelerisque justo. Vestibulum sed magna sed nunc pharetra pellentesque ut vel enim. Etiam quis placerat odio. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam venenatis diam quis ante porttitor, nec luctus risus efficitur. Etiam faucibus tempus lectus. Suspendisse potenti. Praesent ac congue tortor, vel vestibulum orci.</p>
+
+	<div class="container">
+		<form role="form" action="https://formspree.io/zarco@technologist.com" method="POST">
+      <h2 class="subform-title">Dados Cadastrais</h2>
+			<div class="form-group">
+		  	<label for="name">Nome Completo:</label>
+				<input class="form-control" type="text" name="name" placeholder="Seu Nome Completo" maxlength="50">
+				<br><label for="email">E-mail:</label>
+				<input class="form-control" type="email" name="_replyto" placeholder="exemplo@email.com" maxlength="50">
+			</div>
+			<h2 class="subform-title">Repositório</h2>
+			<div class="form-group">
+				<label for="title">Nome/Título:</label>
+				<input class="form-control" type="text" name="title" maxlength="150" size="50" placeholder="TÍTULO DO REPOSITÓRIO">
+				<br><label for="author">Autores:</label>
+				<input class="form-control" type="text" name="author" maxlength="200" size="65" placeholder="Autor1, Autor2, Autor3, Autor4">
+				<br><label for="url">Git URL:</label>
+				<input class="form-control" type="text" name="url" maxlength="200" size="55" placeholder="https://github.com/user/repository.git">
+			</div>
+			<div class="form-group">
+		  	<div align="center"><input class="btn btn-success btn-lg btn-block" type="submit" value="Enviar"></div>
+			</div>
+		</form>
+	</div>
 <!--------------------------------------------------------------------->
 	</section>
 </div>
