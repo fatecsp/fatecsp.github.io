@@ -135,9 +135,12 @@ footer {
 /* Submit */
 
 .form-group {
-	border: 1px solid #d3d3d3;
 	max-width: 500px;
 	padding: 20px;
+	margin-bottom: 25px;
+	border: 1px solid #ddd;
+	border-radius: 10px;
+	border-width: 1px;
 }
 
 .subform-title {
