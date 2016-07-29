@@ -10,28 +10,9 @@
 	<link rel="icon" href="images/fatechub-ico.png">
 	<title>FatecHub</title>
 </head>
-
 <body>
 
-<!-- Header -->
-  <div id="header_wrap" class="outer">
-  	<header class="inner">
-  		<img id="fatechub-t-logo" style="float:left;" src="images/fatechub-t-logo.png" alt="FatecHub Logo" width="160px" height="160px"/>
-  		<h1><b>Fatec</b>Hub</h1>
-  		<h5>fatecsp.github.io</h5>
-			<h6>Acervo de repositórios GitHub da Fatec.</h6>
-			<nav id="main-nav" >
-  			<ul>
-					<li><a href="index.html">Início</a></li>
-					<li><a href="acervo.html">Acervo</a></li>
-					<li><a href="submissao.html">Submissão</a></li>
-					<li><a href="sobre.html">Sobre</a></li>
-  			</ul>
-  		</nav>
-  	</header>
-  </div>
-<!-- Header end -->
-
+<div id="main-header"></div>
 <!-- Content -->
 <div id="main_content_wrap" class="outer">
 	<section id="contents" class="inner">
@@ -43,18 +24,17 @@
 	</section>
 </div>
 <!-- Content end -->
+<div id="main-footer"></div>
 
-<!-- Footer -->
-<div id="footer_wrap" class="outer">
-	<footer id="footer" class="inner">
-		Copyright &copy; 2016 Zarco
-	</footer>
-</div>
-<!-- Footer end -->
-
-  <!-- jQuery (Bootstrap JS plugins depend on it) -->
-  <script src="js/jquery-1.11.3.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/script.js"></script>
+<!-- Scripts -->
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/script.js"></script>
+	<script src="js/jquery-3.1.0.min.js"></script>
+	<script>
+			$(document).ready(function(){
+			      $('#main-header').load('pages/header.html');
+						$('#main-footer').load('pages/footer.html');
+			});
+	</script>
 </body>
 </html>
