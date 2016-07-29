@@ -9,22 +9,10 @@
 	<link rel="stylesheet" href="css/stylesheet.css">
 	<link rel="icon" href="images/fatechub-ico.png">
 	<title>FatecHub</title>
-
-	<script src="js/bootstrap.min.js"></script>
-	<script src="js/script.js"></script>
-	<script src="js/jquery-3.1.0.min.js"></script>
-
-	<script>
-			$(document).ready(function(){
-			      $('#main-header').load('pages/header.html');
-			});
-	</script>
 </head>
-
 <body>
 
 <div id="main-header"></div>
-
 <!-- Content -->
 <div id="main_content_wrap" class="outer">
 	<section id="contents" class="inner">
@@ -39,14 +27,18 @@
 	</section>
 </div>
 <!-- Content end -->
+<div id="main-footer"></div>
 
-<!-- Footer -->
-<div id="footer_wrap" class="outer">
-	<footer id="footer" class="inner">
-		Copyright &copy; 2016 Zarco
-	</footer>
-</div>
-<!-- Footer end -->
+<!-- Scripts -->
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/script.js"></script>
+	<script src="js/jquery-3.1.0.min.js"></script>
 
+	<script>
+			$(document).ready(function(){
+			      $('#main-header').load('pages/header.html');
+						$('#main-footer').load('pages/footer.html');
+			});
+	</script>
 </body>
 </html>
