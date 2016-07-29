@@ -9,19 +9,28 @@
 	<link rel="stylesheet" href="css/stylesheet.css">
 	<link rel="icon" href="images/fatechub-ico.png">
 	<title>FatecHub</title>
+
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/script.js"></script>
+	<script src="js/jquery-3.1.0.min.js"></script>
+
 	<script>
-		$("#header").load('header.html #header');
+			$(document).ready(function(){
+			      $('#main-header').load('pages/header.html');
+			});
 	</script>
 </head>
 
 <body>
-<div id="header"></div>
+
+<div id="main-header"></div>
 
 <!-- Content -->
 <div id="main_content_wrap" class="outer">
 	<section id="contents" class="inner">
 <!--------------------------------------------------------------------->
 		<h1>Bem-Vindo!</h1><hr>
+
 		<p>Bem-vindo ao FatecHub.</p>
 		<p>Aqui você encontra uma coleção de links para repositórios que contêm códigos-fonte de diversos projetos desenvolvidos por alunos da FATEC.</p>
 		<p>Para acessar o acervo, clique na opção do menu de navegação, ou <a href="acervo.html">clique aqui.</a></p>
@@ -39,9 +48,5 @@
 </div>
 <!-- Footer end -->
 
-  <!-- jQuery (Bootstrap JS plugins depend on it) -->
-  <script src="js/jquery-1.11.3.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/script.js"></script>
 </body>
 </html>
